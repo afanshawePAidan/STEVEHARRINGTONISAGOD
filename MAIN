@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Guess What?</h2>
+<h2 onclick="changeText(this)">Click on this text!</h2>
+
+<script>
+function changeText(id) {
+  id.innerHTML = "Steve Harrington Is A God";
+}
+</script>
+
+</body>
+</html>
